@@ -16,11 +16,11 @@ a {
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
-	margin-right: 1rem;
-	color: #525252;
+	padding: 0 0.5rem;
+    transition: all 0.5s ease;
 }
 a:hover {
-	color: white;
+	color: black;
 }
 section {     
 	/*margin: 2rem 0;     */
@@ -46,7 +46,7 @@ section.projects {
 section.members { 
 	background: orange; 
 }*/
-																			/* HERO*/ 
+/* HERO*/ 
 nav ul {
 	margin: 0;
 	padding: 0;
@@ -54,14 +54,23 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	list-style: none;
+    border-right: 1px solid #EDEDED;
+}
+
+nav ul li:last-child{
+    border-right: 0px;
 }
 div.hero {
 	color: #655959;
     background: url(./images/bg5.jpeg);
-    height: 100vh;
+    height: 50vh;
     background-position: center;
     display: flex;
     background-size: cover;
+}
+
+div.hero .overlay{
+    background-color: rgba(0,0,0,0.2);
     padding: 3rem;
 }
 div.hero .hero__body {
@@ -79,14 +88,13 @@ div.hero .hero__body span{
     margin: 0;
     font-family: 'Amatic SC', cursive;
 }				
-div.hero .hero__body p:before,
+
 div.hero .hero__body p:after{
     content: '';
     display: block;
-    width: 15%;
+    width: 45%;
     border-top: 5px solid #e53935;
     margin: 1rem 0;
-    border-radius: 10px;
 }		
 														/* STORY SECTION */
 section.story {
