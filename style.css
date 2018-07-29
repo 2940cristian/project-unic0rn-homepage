@@ -57,7 +57,7 @@ nav ul li {
 }
 div.hero {
 	color: #655959;
-    background: url(./bg5.jpeg);
+    background: url(./images/bg5.jpeg);
     height: 100vh;
     background-position: center;
     display: flex;
@@ -77,7 +77,7 @@ div.hero .hero__body span{
     font-size: 4rem;
     color: #fffee9;
     margin: 0;
-font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', cursive;
 }				
 div.hero .hero__body p:before,
 div.hero .hero__body p:after{
@@ -123,13 +123,13 @@ section.projects .projects__main--lit .projects__left{
 	order: 2;
 }
 section.projects .projects__main--mentor .projects__right{
-    background-image: url(./mentor.jpeg);
+    background-image: url(./images/mentor.jpeg);
 }
 section.projects .projects__main--lit .projects__right{
-    background-image: url(./lit.jpeg);
+    background-image: url(./images/lit.jpeg);
 }
 section.projects .projects__main--video .projects__right{
-    background-image: url(./video.jpg);
+    background-image: url(./images/video.jpg);
 }
 section.projects .projects__main--mentor .projects__left{
     background-color: #001c27;
@@ -140,9 +140,7 @@ section.projects .projects__main--lit .projects__left{
 section.projects .projects__main--video .projects__left{
     background-color: #580000;
 }
-
-
-																			/* PROJECTS SECTION */
+																	/* PROJECTS SECTION */
 section.members .members__wrap {
     display: flex;
     justify-content: space-around;
@@ -150,9 +148,6 @@ section.members .members__wrap {
     width: 74%;
     margin: 0 auto;
 }
-
-
-
 
 
 canvas {
