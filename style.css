@@ -156,13 +156,16 @@ section.members .members__wrap {
 
 
 canvas {
-  display: block;
-  vertical-align: bottom;
+    display:block;
+    /*background: rgb(33,36,50);*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 
 #particles {
-  background: red;
+  /*background: red;*/
   height: 100vh;
-
 }
